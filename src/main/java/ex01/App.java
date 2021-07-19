@@ -28,7 +28,7 @@ import java.util.Scanner;
 public class App
 {
     //Class Variable
-    static Scanner input = new Scanner(System.in);
+    static Scanner INPUT = new Scanner(System.in);
 
     public static void main( String[] args )
     {
@@ -50,7 +50,7 @@ public class App
 
     public String readName() {
         System.out.println( "What is your name?" );
-        String name = input.nextLine();
+        String name = INPUT.nextLine();
         return name;
     }
 
